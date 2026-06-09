@@ -22,6 +22,7 @@ A full-stack web app that builds **repeating weekly staff schedules** for around
 - If a run is successfully a success message will inform you of it! 
 - Changing the number of workers resets preferences, this will be addressed in future updates.
 - SAVE FILES ARE STORED GLOBALLY DUE TO PII ISSUES AND MY DESIRE TO AVOID A TERMS OF SERVICE AND USER AGREEMENT
+- 
 
 
 ## Why I built it
@@ -33,7 +34,7 @@ This came out of working in 24/7 security operations, where weekly rosters were 
 - Takes user-supplied **per-employee constraints** and the **number of employees required each day**.
 - Produces a **weekly schedule template** built to repeat week over week.
 - **Maximizes employee preferences** within the user-defined staffing requirements.
-- Keeps each person's worked days and days off **grouped into blocks** rather than scattered, for more livable schedules.
+- Biases toward each person's worked days and days off **grouped into blocks** rather than scattered, for more livable schedules.
 - Full **create / read / update / delete** on employees and constraints through a live web interface.
 
 ## How it works
